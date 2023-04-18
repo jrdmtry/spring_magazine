@@ -37,4 +37,13 @@ public class Product {
     public void setCost(int cost) {
         this.cost = cost;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", cost=" + cost +
+                '}';
+    }
 }
